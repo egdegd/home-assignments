@@ -63,7 +63,7 @@ def find_corners(image_0, image_1, p0, ids, radiuses, max_corners, last_id, pyr_
             p0_ = p0 // (2 ** (lvl - 1))
             for point in p0_:
                 x, y = point[0]
-                cv2.circle(my_mask, (x, y), radius // (2**lvl), 0, -1)
+                cv2.circle(my_mask, (x, y), radius * (2**lvl), 0, -1)
             new_p0 = cv2.goodFeaturesToTrack(image_1, mask=my_mask, maxCorners=cur_count, qualityLevel=0.01, minDistance=radius // (2**(lvl - 1)))
             if new_p0 is not None:
                 new_p0 = new_p0 * (2 ** (lvl - 1))
@@ -71,7 +71,7 @@ def find_corners(image_0, image_1, p0, ids, radiuses, max_corners, last_id, pyr_
                 last_id += len(new_p0)
                 ids = np.concatenate([ids, new_ids])
                 p0 = np.concatenate([p0, new_p0[:len(new_p0)]])
-                radiuses = np.concatenate([radiuses, np.array(np.full(len(new_p0), radius // (2**(lvl - 1))))])
+                radiuses = np.concatenate([radiuses, np.array(np.full(len(new_p0), radius * (2**(lvl - 1))))])
             cur_count //= 2
     return p0, ids, radiuses, last_id
 
@@ -81,7 +81,7 @@ def _build_impl(frame_sequence: pims.FramesSequence,
     image_0 = frame_sequence[0]
     max_corners = 2500
     pyr_lvl = 3
-    radius = 14
+    radius = 4
     cur_count = int(max_corners / (2 - 1 / 2 ** (pyr_lvl - 1)))
     p0 = cv2.goodFeaturesToTrack(image_0, maxCorners=cur_count, qualityLevel=0.01, minDistance=7)
     ids = np.array(range(len(p0)))
@@ -95,7 +95,8 @@ def _build_impl(frame_sequence: pims.FramesSequence,
         compress_image_0 = cv2.pyrDown(compress_image_0)
         compress_p0 = cv2.goodFeaturesToTrack(compress_image_0, maxCorners=cur_count, qualityLevel=0.01, minDistance=7)
         compress_ids = np.array(range(last_id, last_id + len(compress_p0)))
-        compress_radiuses = np.array(np.full(len(compress_p0), radius // (2**(lvl - 1))))
+        compress_radiuses = np.array(np.full(len(compress_p0), radius *
+                                             (2**(lvl - 1))))
         last_id = last_id + len(compress_p0)
 
         ids = np.concatenate([ids, compress_ids])
