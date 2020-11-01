@@ -19,7 +19,7 @@ import click
 import cv2
 import numpy as np
 
-import camtrack.frameseq
+import frameseq
 
 
 class FrameCorners:
@@ -234,7 +234,7 @@ def create_cli(build):
         FRAME_SEQUENCE path to a video file or shell-like wildcard describing
         multiple images
         """
-        sequence = camtrack.frameseq.read_grayscale_f32(frame_sequence)
+        sequence = frameseq.read_grayscale_f32(frame_sequence)
         if file_to_load is not None:
             corner_storage = load(file_to_load)
         else:
