@@ -105,14 +105,13 @@ def track_and_calc_colors(camera_parameters: CameraParameters,
         marked_inliers[last] = len(inliers)
         point_cloud_builder = retriangulate_points(last, corner_storage, last_retr_id, level,
                                                    marked_inliers_p, point_cloud_builder, view_mats, intrinsic_mat)
-        if level % 10 == 0:
-            for i, mat in enumerate(view_mats):
-                if mat is None:
-                    continue
-                v_mat, inliers = get_position(i, point_cloud_builder, corner_storage, intrinsic_mat)
-                if marked_inliers[i] < len(inliers):
-                    view_mats[i] = v_mat[:3]
-                    marked_inliers[i] = len(inliers)
+        for i, mat in enumerate(view_mats):
+            if mat is None:
+                continue
+            v_mat, inliers = get_position(i, point_cloud_builder, corner_storage, intrinsic_mat)
+            if marked_inliers[i] < len(inliers):
+                view_mats[i] = v_mat[:3]
+                marked_inliers[i] = len(inliers)
         level += 1
 
     view_mats = list(filter(lambda x: x is not None, view_mats))
