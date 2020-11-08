@@ -35,7 +35,7 @@ def count_not_none(arr):
     return len(list(filter(lambda x: x is not None, arr)))
 
 
-def restore_point_cloud(view_mats, corner_storage, last, intrinsic_mat, point_cloud_builder):
+def restore_point_cloud(view_mats, corner_storage, last, intrinsic_mat, point_cloud_builder, inl):
     for i, v_mat in enumerate(view_mats):
         if v_mat is None:
             continue
@@ -43,8 +43,17 @@ def restore_point_cloud(view_mats, corner_storage, last, intrinsic_mat, point_cl
         new_corners = corner_storage[i]
         correspondences = build_correspondences(new_corners, last_corners)
         pts, ids, med = triangulate_correspondences(correspondences, v_mat, view_mats[last],
-                                                    intrinsic_mat, TriangulationParameters(1, 1, .1))
-        point_cloud_builder.add_points(ids, pts)
+                                                    intrinsic_mat, TriangulationParameters(5, 1, .1))
+        corners_to_add = []
+        ids_to_add = []
+
+        for j in ids:
+            if j in inl or j not in point_cloud_builder.ids:
+                ids_to_add.append(j)
+                corners_to_add.append(pts[np.where(ids == j)])
+
+        if len(ids_to_add) > 0:
+            point_cloud_builder.add_points(np.array(ids_to_add), np.array(corners_to_add))
     return point_cloud_builder
 
 
@@ -88,21 +97,31 @@ def track_and_calc_colors(camera_parameters: CameraParameters,
     last = known_view_2[0]
     level = 0
 
+    inl = []
+
+
     while count_not_none(view_mats) < frame_count:
         processed_frames = count_not_none(view_mats) + 1
         print('Processing {0}/{1} frame'.format(processed_frames, frame_count))
         point_cloud_builder = restore_point_cloud(view_mats, corner_storage, last, intrinsic_mat,
-                                                  point_cloud_builder)
+                                                  point_cloud_builder, inl)
         print('Points cloud size: {0}'.format(len(point_cloud_builder.points)))
         not_processed = []
         for i, el in enumerate(view_mats):
             if el is None:
                 not_processed.append(i)
-        last = np.random.choice(not_processed, 1)[0]
-        mat, inliers = get_position(last, point_cloud_builder, corner_storage, intrinsic_mat)
-        print('Used {} inliers'.format(len(inliers)))
-        view_mats[last] = mat[:3]
-        marked_inliers[last] = len(inliers)
+        # last = np.random.choice(not_processed, 1)[0]
+        max_inliers = []
+        last = 0
+        max_mat = []
+        for i in not_processed:
+            mat, inliers = get_position(i, point_cloud_builder, corner_storage, intrinsic_mat)
+            if len(inliers) > len(max_inliers):
+                max_inliers, max_mat, last = inliers, mat, i
+        inl = max_inliers
+        print('Used {} inliers'.format(len(max_inliers)))
+        view_mats[last] = max_mat[:3]
+        marked_inliers[last] = len(max_inliers)
         point_cloud_builder = retriangulate_points(last, corner_storage, last_retr_id, level,
                                                    marked_inliers_p, point_cloud_builder, view_mats, intrinsic_mat)
         for i, mat in enumerate(view_mats):
@@ -169,6 +188,7 @@ def get_position(index, point_cloud_builder, corner_storage, intrinsic_mat):
 
 def retriangulate_points(index, corner_storage, last_retr_id, level, marked_inliers_p, point_cloud_builder,
                          view_mats, intrinsic_mat):
+    reprojection_error = 0.1
     need = []
     retr_points = []
     retr_ids = []
@@ -208,8 +228,8 @@ def retriangulate_points(index, corner_storage, last_retr_id, level, marked_inli
                 for mat, point in zip(view_mats_, points):
                     err.append(compute_reprojection_errors(pts, np.array([point]), np.dot(intrinsic_mat, mat)))
                 err = np.array(err)
-                if flag or count < np.sum(err < 0.1):
-                    count = np.sum(err < 0.1)
+                if flag or count < np.sum(err < reprojection_error):
+                    count = np.sum(err < reprojection_error)
                     new_points = pts
                     flag = False
         if flag:
@@ -222,7 +242,8 @@ def retriangulate_points(index, corner_storage, last_retr_id, level, marked_inli
             last_retr_id[i[0]] = level
     retr_ids = np.array(retr_ids)
     retr_points = np.array(retr_points)
-    point_cloud_builder.update_points(retr_ids, retr_points)
+    if not (len(retr_ids) == 0 or len(retr_points) == 0):
+        point_cloud_builder.update_points(retr_ids, retr_points)
     return point_cloud_builder
 
 
