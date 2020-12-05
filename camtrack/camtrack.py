@@ -27,7 +27,9 @@ from _camtrack import (
     TriangulationParameters,
     project_points,
     Correspondences,
-    compute_reprojection_errors
+    compute_reprojection_errors,
+    eye3x4,
+    _remove_correspondences_with_ids
 )
 
 
@@ -57,6 +59,56 @@ def restore_point_cloud(view_mats, corner_storage, last, intrinsic_mat, point_cl
     return point_cloud_builder
 
 
+def initialization(frame_count, corner_storage, intrinsic_mat):
+    frame_1 = 0
+    frame_2 = 0
+    frame_1_pose = eye3x4()
+    frame_2_pose = None
+    best_result = 0
+    for i in range(frame_count):
+        for j in range(i + 5, frame_count):
+            pose, pose_points = two_frame_initialization(corner_storage[i], corner_storage[j], intrinsic_mat)
+            if pose_points > best_result:
+                frame_1, frame_2, frame_2_pose = i, j, pose
+                best_result = pose_points
+    return frame_1, frame_1_pose, frame_2, pose_to_view_mat3x4(frame_2_pose)
+
+
+def two_frame_initialization(frame_corners_1, frame_corners_2, intrinsic_mat):
+    correspondences = build_correspondences(frame_corners_1, frame_corners_2)
+    if len(correspondences.ids) < 5:
+        return None, 0
+    pts_0 = correspondences.points_1
+    pts_1 = correspondences.points_2
+    H, h_mask = cv2.findHomography(pts_0, pts_1, method=cv2.RANSAC, ransacReprojThreshold=1.0, confidence=0.999)
+    if np.nonzero(h_mask)[0].size / len(pts_0) > 0.9:
+        return None, 0
+    E, e_mask = cv2.findEssentialMat(
+        pts_0, pts_1, cameraMatrix=intrinsic_mat, method=cv2.RANSAC, prob=0.999, threshold=1.0)
+    if E is None or E.shape != (3, 3):
+        return None, 0
+    if h_mask.flatten().sum() / e_mask.flatten().sum() > 0.5:
+        return None, 0
+
+    correspondences = _remove_correspondences_with_ids(correspondences, np.argwhere(e_mask == 0))
+    R1, R2, t_d = cv2.decomposeEssentialMat(E)
+    best_pose_points = 0
+    best_pose = None
+    for R, t in [(R1, t_d), (R1, -t_d), (R2, t_d), (R2, -t_d)]:
+        pose_1 = Pose(R.T, R.T @ t)
+        view_1 = pose_to_view_mat3x4(pose_1)
+        view_0 = eye3x4()
+        p, ids, med = triangulate_correspondences(correspondences, view_0, view_1, intrinsic_mat,
+                                                  TriangulationParameters(1, 5, .1))
+        if len(p) > best_pose_points:
+            best_pose_points = len(p)
+            best_pose = pose_1
+    return best_pose, best_pose_points
+
+
+# --show ../videos/rgb/* ../data_examples/soda_free_motion_camera.yml track.yml point_cloud.yml
+# --show ../videos/fox_head_short.mov ../data_examples/fox_camera_short.yml track.yml point_cloud.yml --load-corners my_corners
+
 def track_and_calc_colors(camera_parameters: CameraParameters,
                           corner_storage: CornerStorage,
                           frame_sequence_path: str,
@@ -64,23 +116,27 @@ def track_and_calc_colors(camera_parameters: CameraParameters,
                           known_view_2: Optional[Tuple[int, Pose]] = None) \
         -> Tuple[List[Pose], PointCloud]:
     np.random.seed(1337)
-    if known_view_1 is None or known_view_2 is None:
-        raise NotImplementedError()
-
     rgb_sequence = frameseq.read_rgb_f32(frame_sequence_path)
     intrinsic_mat = to_opencv_camera_mat3x3(
         camera_parameters,
         rgb_sequence[0].shape[0]
     )
-
     frame_count = len(corner_storage)
+    if known_view_1 is None or known_view_2 is None:
+        pose1_idx, pose1, pose2_idx, pose2 = initialization(frame_count, corner_storage, intrinsic_mat)
+        known_view_1 = (pose1_idx, pose1)
+        known_view_2 = (pose2_idx, pose2)
+        pose_1 = known_view_1[1]
+        pose_2 = known_view_2[1]
+        print(known_view_1, known_view_2)
+    else:
+        pose_1 = pose_to_view_mat3x4(known_view_1[1])
+        pose_2 = pose_to_view_mat3x4(known_view_2[1])
+
     corners_1 = corner_storage[known_view_1[0]]
     corners_2 = corner_storage[known_view_2[0]]
 
     correspondences = build_correspondences(corners_1, corners_2)
-
-    pose_1 = pose_to_view_mat3x4(known_view_1[1])
-    pose_2 = pose_to_view_mat3x4(known_view_2[1])
 
     pts, ids, med = triangulate_correspondences(correspondences, pose_1, pose_2,
                                                 intrinsic_mat, TriangulationParameters(5, 1, .1))
@@ -98,7 +154,6 @@ def track_and_calc_colors(camera_parameters: CameraParameters,
     level = 0
 
     inl = []
-
 
     while count_not_none(view_mats) < frame_count:
         processed_frames = count_not_none(view_mats) + 1
@@ -167,6 +222,8 @@ def get_position(index, point_cloud_builder, corner_storage, intrinsic_mat):
     pts3d, pts2d = get_index_from_intersect(point_cloud_builder.ids, corner_storage[index].ids,
                                             point_cloud_builder.points,
                                             corner_storage[index].points)
+    if len(pts3d) < 6:
+        return None, []
     inliers = cv2.solvePnPRansac(
         objectPoints=pts3d,
         imagePoints=pts2d,
@@ -175,6 +232,8 @@ def get_position(index, point_cloud_builder, corner_storage, intrinsic_mat):
         iterationsCount=250,
         flags=cv2.SOLVEPNP_EPNP
     )
+    if len(pts3d[inliers[3]]) < 6:
+        return None, []
     _, r_vec, t_vec = cv2.solvePnP(
         objectPoints=pts3d[inliers[3]],
         imagePoints=pts2d[inliers[3]],
@@ -220,8 +279,10 @@ def retriangulate_points(index, corner_storage, last_retr_id, level, marked_inli
         flag = True
         for _ in range(5):
             rand_ind = np.random.choice(len(points), 2)
-            correspondences = Correspondences(np.array([i]), np.array([points[rand_ind[0]]]), np.array([points[rand_ind[1]]]))
-            pts, ids, med = triangulate_correspondences(correspondences, view_mats_[rand_ind[0]], view_mats_[rand_ind[1]], intrinsic_mat,
+            correspondences = Correspondences(np.array([i]), np.array([points[rand_ind[0]]]),
+                                              np.array([points[rand_ind[1]]]))
+            pts, ids, med = triangulate_correspondences(correspondences, view_mats_[rand_ind[0]],
+                                                        view_mats_[rand_ind[1]], intrinsic_mat,
                                                         TriangulationParameters(5, 1, .1))
             if len(pts) > 0:
                 err = []
