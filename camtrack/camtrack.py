@@ -33,32 +33,6 @@ from _camtrack import (
 )
 
 
-def count_not_none(arr):
-    return len(list(filter(lambda x: x is not None, arr)))
-
-
-def restore_point_cloud(view_mats, corner_storage, last, intrinsic_mat, point_cloud_builder, inl):
-    for i, v_mat in enumerate(view_mats):
-        if v_mat is None:
-            continue
-        last_corners = corner_storage[last]
-        new_corners = corner_storage[i]
-        correspondences = build_correspondences(new_corners, last_corners)
-        pts, ids, med = triangulate_correspondences(correspondences, v_mat, view_mats[last],
-                                                    intrinsic_mat, TriangulationParameters(5, 1, .1))
-        corners_to_add = []
-        ids_to_add = []
-
-        for j in ids:
-            if j in inl or j not in point_cloud_builder.ids:
-                ids_to_add.append(j)
-                corners_to_add.append(pts[np.where(ids == j)])
-
-        if len(ids_to_add) > 0:
-            point_cloud_builder.add_points(np.array(ids_to_add), np.array(corners_to_add))
-    return point_cloud_builder
-
-
 def initialization(frame_count, corner_storage, intrinsic_mat):
     frame_1 = 0
     frame_2 = 0
@@ -67,11 +41,11 @@ def initialization(frame_count, corner_storage, intrinsic_mat):
     best_result = 0
     for i in range(frame_count):
         for j in range(i + 5, frame_count):
-            pose, pose_points = two_frame_initialization(corner_storage[i], corner_storage[j], intrinsic_mat)
-            if pose_points > best_result:
-                frame_1, frame_2, frame_2_pose = i, j, pose
-                best_result = pose_points
-    return frame_1, frame_1_pose, frame_2, pose_to_view_mat3x4(frame_2_pose)
+            pose_cloud, pose_cloud_size = two_frame_initialization(corner_storage[i], corner_storage[j], intrinsic_mat)
+            if pose_cloud_size > best_result:
+                frame_1, frame_2, frame_2_pose = i, j, pose_cloud
+                best_result = pose_cloud_size
+    return frame_1, frame_1_pose, frame_2, frame_2_pose
 
 
 def two_frame_initialization(frame_corners_1, frame_corners_2, intrinsic_mat):
@@ -106,8 +80,31 @@ def two_frame_initialization(frame_corners_1, frame_corners_2, intrinsic_mat):
     return best_pose, best_pose_points
 
 
-# --show ../videos/rgb/* ../data_examples/soda_free_motion_camera.yml track.yml point_cloud.yml
-# --show ../videos/fox_head_short.mov ../data_examples/fox_camera_short.yml track.yml point_cloud.yml --load-corners my_corners
+def count_not_none(arr):
+    return len(list(filter(lambda x: x is not None, arr)))
+
+
+def restore_point_cloud(view_mats, corner_storage, last, intrinsic_mat, point_cloud_builder, inl):
+    for i, v_mat in enumerate(view_mats):
+        if v_mat is None:
+            continue
+        last_corners = corner_storage[last]
+        new_corners = corner_storage[i]
+        correspondences = build_correspondences(new_corners, last_corners)
+        pts, ids, med = triangulate_correspondences(correspondences, v_mat, view_mats[last],
+                                                    intrinsic_mat, TriangulationParameters(5, 1, .1))
+        corners_to_add = []
+        ids_to_add = []
+
+        for j in ids:
+            if j in inl or j not in point_cloud_builder.ids:
+                ids_to_add.append(j)
+                corners_to_add.append(pts[np.where(ids == j)])
+
+        if len(ids_to_add) > 0:
+            point_cloud_builder.add_points(np.array(ids_to_add), np.array(corners_to_add))
+    return point_cloud_builder
+
 
 def track_and_calc_colors(camera_parameters: CameraParameters,
                           corner_storage: CornerStorage,
@@ -125,10 +122,9 @@ def track_and_calc_colors(camera_parameters: CameraParameters,
     if known_view_1 is None or known_view_2 is None:
         pose1_idx, pose1, pose2_idx, pose2 = initialization(frame_count, corner_storage, intrinsic_mat)
         known_view_1 = (pose1_idx, pose1)
-        known_view_2 = (pose2_idx, pose2)
+        known_view_2 = (pose2_idx, pose_to_view_mat3x4(pose2))
         pose_1 = known_view_1[1]
         pose_2 = known_view_2[1]
-        print(known_view_1, known_view_2)
     else:
         pose_1 = pose_to_view_mat3x4(known_view_1[1])
         pose_2 = pose_to_view_mat3x4(known_view_2[1])

@@ -1,0 +1,931 @@
+Exception ignored in: <function PyAVReaderIndexed.__del__ at 0x7f1b6d864950>
+Traceback (most recent call last):
+  File "/home/grisha/3dcv/home-assignments/venv/lib/python3.7/site-packages/pims/pyav_reader.py", line 368, in __del__
+    self._container.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]
+/home/grisha/3dcv/home-assignments/camtrack/_camtrack.py:84: RuntimeWarning: invalid value encountered in true_divide
+  points2d /= points2d[[2]]

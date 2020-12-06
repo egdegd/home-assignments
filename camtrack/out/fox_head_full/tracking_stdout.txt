@@ -1,0 +1,1428 @@
+Processing 3/478 frame
+Points cloud size: 2359
+Used 2359 inliers
+Processing 4/478 frame
+Points cloud size: 2368
+Used 2368 inliers
+Processing 5/478 frame
+Points cloud size: 2375
+Used 2375 inliers
+Processing 6/478 frame
+Points cloud size: 2380
+Used 2380 inliers
+Processing 7/478 frame
+Points cloud size: 2384
+Used 2383 inliers
+Processing 8/478 frame
+Points cloud size: 2451
+Used 2449 inliers
+Processing 9/478 frame
+Points cloud size: 2496
+Used 2491 inliers
+Processing 10/478 frame
+Points cloud size: 2498
+Used 2488 inliers
+Processing 11/478 frame
+Points cloud size: 2502
+Used 2477 inliers
+Processing 12/478 frame
+Points cloud size: 2513
+Used 2484 inliers
+Processing 13/478 frame
+Points cloud size: 2517
+Used 2485 inliers
+Processing 14/478 frame
+Points cloud size: 2520
+Used 2488 inliers
+Processing 15/478 frame
+Points cloud size: 2522
+Used 2489 inliers
+Processing 16/478 frame
+Points cloud size: 2523
+Used 2486 inliers
+Processing 17/478 frame
+Points cloud size: 2525
+Used 2485 inliers
+Processing 18/478 frame
+Points cloud size: 2530
+Used 2485 inliers
+Processing 19/478 frame
+Points cloud size: 2535
+Used 2485 inliers
+Processing 20/478 frame
+Points cloud size: 2539
+Used 2488 inliers
+Processing 21/478 frame
+Points cloud size: 2544
+Used 2493 inliers
+Processing 22/478 frame
+Points cloud size: 2545
+Used 2493 inliers
+Processing 23/478 frame
+Points cloud size: 2546
+Used 2494 inliers
+Processing 24/478 frame
+Points cloud size: 2547
+Used 2494 inliers
+Processing 25/478 frame
+Points cloud size: 2547
+Used 2494 inliers
+Processing 26/478 frame
+Points cloud size: 2547
+Used 2494 inliers
+Processing 27/478 frame
+Points cloud size: 2547
+Used 2483 inliers
+Processing 28/478 frame
+Points cloud size: 2554
+Used 2489 inliers
+Processing 29/478 frame
+Points cloud size: 2554
+Used 2489 inliers
+Processing 30/478 frame
+Points cloud size: 2554
+Used 2488 inliers
+Processing 31/478 frame
+Points cloud size: 2558
+Used 2490 inliers
+Processing 32/478 frame
+Points cloud size: 2558
+Used 2486 inliers
+Processing 33/478 frame
+Points cloud size: 2558
+Used 2486 inliers
+Processing 34/478 frame
+Points cloud size: 2558
+Used 2483 inliers
+Processing 35/478 frame
+Points cloud size: 2559
+Used 2466 inliers
+Processing 36/478 frame
+Points cloud size: 2560
+Used 2466 inliers
+Processing 37/478 frame
+Points cloud size: 2560
+Used 2464 inliers
+Processing 38/478 frame
+Points cloud size: 2562
+Used 2464 inliers
+Processing 39/478 frame
+Points cloud size: 2564
+Used 2464 inliers
+Processing 40/478 frame
+Points cloud size: 2564
+Used 2463 inliers
+Processing 41/478 frame
+Points cloud size: 2565
+Used 2462 inliers
+Processing 42/478 frame
+Points cloud size: 2567
+Used 2462 inliers
+Processing 43/478 frame
+Points cloud size: 2569
+Used 2456 inliers
+Processing 44/478 frame
+Points cloud size: 2578
+Used 2465 inliers
+Processing 45/478 frame
+Points cloud size: 2584
+Used 2466 inliers
+Processing 46/478 frame
+Points cloud size: 2585
+Used 2465 inliers
+Processing 47/478 frame
+Points cloud size: 2587
+Used 2466 inliers
+Processing 48/478 frame
+Points cloud size: 2588
+Used 2463 inliers
+Processing 49/478 frame
+Points cloud size: 2592
+Used 2466 inliers
+Processing 50/478 frame
+Points cloud size: 2594
+Used 2468 inliers
+Processing 51/478 frame
+Points cloud size: 2599
+Used 2467 inliers
+Processing 52/478 frame
+Points cloud size: 2599
+Used 2467 inliers
+Processing 53/478 frame
+Points cloud size: 2602
+Used 2471 inliers
+Processing 54/478 frame
+Points cloud size: 2603
+Used 2468 inliers
+Processing 55/478 frame
+Points cloud size: 2603
+Used 2467 inliers
+Processing 56/478 frame
+Points cloud size: 2604
+Used 2461 inliers
+Processing 57/478 frame
+Points cloud size: 2606
+Used 2461 inliers
+Processing 58/478 frame
+Points cloud size: 2606
+Used 2461 inliers
+Processing 59/478 frame
+Points cloud size: 2606
+Used 2454 inliers
+Processing 60/478 frame
+Points cloud size: 2609
+Used 2450 inliers
+Processing 61/478 frame
+Points cloud size: 2614
+Used 2453 inliers
+Processing 62/478 frame
+Points cloud size: 2614
+Used 2447 inliers
+Processing 63/478 frame
+Points cloud size: 2615
+Used 2444 inliers
+Processing 64/478 frame
+Points cloud size: 2621
+Used 2440 inliers
+Processing 65/478 frame
+Points cloud size: 2622
+Used 2440 inliers
+Processing 66/478 frame
+Points cloud size: 2626
+Used 2432 inliers
+Processing 67/478 frame
+Points cloud size: 2630
+Used 2428 inliers
+Processing 68/478 frame
+Points cloud size: 2636
+Used 2428 inliers
+Processing 69/478 frame
+Points cloud size: 2642
+Used 2428 inliers
+Processing 70/478 frame
+Points cloud size: 2649
+Used 2430 inliers
+Processing 71/478 frame
+Points cloud size: 2650
+Used 2428 inliers
+Processing 72/478 frame
+Points cloud size: 2659
+Used 2428 inliers
+Processing 73/478 frame
+Points cloud size: 2664
+Used 2430 inliers
+Processing 74/478 frame
+Points cloud size: 2667
+Used 2432 inliers
+Processing 75/478 frame
+Points cloud size: 2677
+Used 2434 inliers
+Processing 76/478 frame
+Points cloud size: 2679
+Used 2429 inliers
+Processing 77/478 frame
+Points cloud size: 2682
+Used 2428 inliers
+Processing 78/478 frame
+Points cloud size: 2687
+Used 2428 inliers
+Processing 79/478 frame
+Points cloud size: 2689
+Used 2421 inliers
+Processing 80/478 frame
+Points cloud size: 2693
+Used 2424 inliers
+Processing 81/478 frame
+Points cloud size: 2695
+Used 2425 inliers
+Processing 82/478 frame
+Points cloud size: 2699
+Used 2427 inliers
+Processing 83/478 frame
+Points cloud size: 2701
+Used 2427 inliers
+Processing 84/478 frame
+Points cloud size: 2704
+Used 2424 inliers
+Processing 85/478 frame
+Points cloud size: 2709
+Used 2429 inliers
+Processing 86/478 frame
+Points cloud size: 2712
+Used 2433 inliers
+Processing 87/478 frame
+Points cloud size: 2717
+Used 2434 inliers
+Processing 88/478 frame
+Points cloud size: 2718
+Used 2440 inliers
+Processing 89/478 frame
+Points cloud size: 2718
+Used 2426 inliers
+Processing 90/478 frame
+Points cloud size: 2719
+Used 2425 inliers
+Processing 91/478 frame
+Points cloud size: 2723
+Used 2427 inliers
+Processing 92/478 frame
+Points cloud size: 2726
+Used 2424 inliers
+Processing 93/478 frame
+Points cloud size: 2726
+Used 2425 inliers
+Processing 94/478 frame
+Points cloud size: 2726
+Used 2421 inliers
+Processing 95/478 frame
+Points cloud size: 2727
+Used 2420 inliers
+Processing 96/478 frame
+Points cloud size: 2729
+Used 2417 inliers
+Processing 97/478 frame
+Points cloud size: 2731
+Used 2413 inliers
+Processing 98/478 frame
+Points cloud size: 2732
+Used 2412 inliers
+Processing 99/478 frame
+Points cloud size: 2734
+Used 2411 inliers
+Processing 100/478 frame
+Points cloud size: 2737
+Used 2404 inliers
+Processing 101/478 frame
+Points cloud size: 2739
+Used 2399 inliers
+Processing 102/478 frame
+Points cloud size: 2742
+Used 2406 inliers
+Processing 103/478 frame
+Points cloud size: 2742
+Used 2394 inliers
+Processing 104/478 frame
+Points cloud size: 2747
+Used 2395 inliers
+Processing 105/478 frame
+Points cloud size: 2749
+Used 2304 inliers
+Processing 106/478 frame
+Points cloud size: 2751
+Used 2294 inliers
+Processing 107/478 frame
+Points cloud size: 2756
+Used 2292 inliers
+Processing 108/478 frame
+Points cloud size: 2761
+Used 2300 inliers
+Processing 109/478 frame
+Points cloud size: 2761
+Used 2293 inliers
+Processing 110/478 frame
+Points cloud size: 2763
+Used 2295 inliers
+Processing 111/478 frame
+Points cloud size: 2769
+Used 2299 inliers
+Processing 112/478 frame
+Points cloud size: 2795
+Used 2325 inliers
+Processing 113/478 frame
+Points cloud size: 2795
+Used 2324 inliers
+Processing 114/478 frame
+Points cloud size: 2856
+Used 2382 inliers
+Processing 115/478 frame
+Points cloud size: 2872
+Used 2393 inliers
+Processing 116/478 frame
+Points cloud size: 2876
+Used 2394 inliers
+Processing 117/478 frame
+Points cloud size: 2877
+Used 2392 inliers
+Processing 118/478 frame
+Points cloud size: 2881
+Used 2395 inliers
+Processing 119/478 frame
+Points cloud size: 2882
+Used 2395 inliers
+Processing 120/478 frame
+Points cloud size: 2882
+Used 2392 inliers
+Processing 121/478 frame
+Points cloud size: 2882
+Used 2387 inliers
+Processing 122/478 frame
+Points cloud size: 2886
+Used 2388 inliers
+Processing 123/478 frame
+Points cloud size: 2887
+Used 2382 inliers
+Processing 124/478 frame
+Points cloud size: 2894
+Used 2389 inliers
+Processing 125/478 frame
+Points cloud size: 2894
+Used 2387 inliers
+Processing 126/478 frame
+Points cloud size: 2895
+Used 2385 inliers
+Processing 127/478 frame
+Points cloud size: 2896
+Used 2376 inliers
+Processing 128/478 frame
+Points cloud size: 2900
+Used 2374 inliers
+Processing 129/478 frame
+Points cloud size: 2901
+Used 2373 inliers
+Processing 130/478 frame
+Points cloud size: 2907
+Used 2377 inliers
+Processing 131/478 frame
+Points cloud size: 2909
+Used 2364 inliers
+Processing 132/478 frame
+Points cloud size: 2909
+Used 2355 inliers
+Processing 133/478 frame
+Points cloud size: 2909
+Used 2346 inliers
+Processing 134/478 frame
+Points cloud size: 2910
+Used 2348 inliers
+Processing 135/478 frame
+Points cloud size: 2916
+Used 2351 inliers
+Processing 136/478 frame
+Points cloud size: 2921
+Used 2348 inliers
+Processing 137/478 frame
+Points cloud size: 2922
+Used 2348 inliers
+Processing 138/478 frame
+Points cloud size: 2925
+Used 2345 inliers
+Processing 139/478 frame
+Points cloud size: 2930
+Used 2349 inliers
+Processing 140/478 frame
+Points cloud size: 2940
+Used 2350 inliers
+Processing 141/478 frame
+Points cloud size: 2943
+Used 2356 inliers
+Processing 142/478 frame
+Points cloud size: 2951
+Used 2363 inliers
+Processing 143/478 frame
+Points cloud size: 2953
+Used 2361 inliers
+Processing 144/478 frame
+Points cloud size: 2955
+Used 2353 inliers
+Processing 145/478 frame
+Points cloud size: 2959
+Used 2362 inliers
+Processing 146/478 frame
+Points cloud size: 2959
+Used 2350 inliers
+Processing 147/478 frame
+Points cloud size: 2959
+Used 2347 inliers
+Processing 148/478 frame
+Points cloud size: 2960
+Used 2344 inliers
+Processing 149/478 frame
+Points cloud size: 2963
+Used 2346 inliers
+Processing 150/478 frame
+Points cloud size: 2965
+Used 2346 inliers
+Processing 151/478 frame
+Points cloud size: 2967
+Used 2337 inliers
+Processing 152/478 frame
+Points cloud size: 2972
+Used 2337 inliers
+Processing 153/478 frame
+Points cloud size: 2979
+Used 2337 inliers
+Processing 154/478 frame
+Points cloud size: 2980
+Used 2332 inliers
+Processing 155/478 frame
+Points cloud size: 2985
+Used 2336 inliers
+Processing 156/478 frame
+Points cloud size: 2989
+Used 2336 inliers
+Processing 157/478 frame
+Points cloud size: 2991
+Used 2328 inliers
+Processing 158/478 frame
+Points cloud size: 2992
+Used 2323 inliers
+Processing 159/478 frame
+Points cloud size: 2994
+Used 2323 inliers
+Processing 160/478 frame
+Points cloud size: 3001
+Used 2324 inliers
+Processing 161/478 frame
+Points cloud size: 3004
+Used 2326 inliers
+Processing 162/478 frame
+Points cloud size: 3007
+Used 2318 inliers
+Processing 163/478 frame
+Points cloud size: 3011
+Used 2314 inliers
+Processing 164/478 frame
+Points cloud size: 3017
+Used 2318 inliers
+Processing 165/478 frame
+Points cloud size: 3021
+Used 2317 inliers
+Processing 166/478 frame
+Points cloud size: 3026
+Used 2324 inliers
+Processing 167/478 frame
+Points cloud size: 3026
+Used 2311 inliers
+Processing 168/478 frame
+Points cloud size: 3027
+Used 2308 inliers
+Processing 169/478 frame
+Points cloud size: 3034
+Used 2312 inliers
+Processing 170/478 frame
+Points cloud size: 3039
+Used 2313 inliers
+Processing 171/478 frame
+Points cloud size: 3045
+Used 2317 inliers
+Processing 172/478 frame
+Points cloud size: 3048
+Used 2318 inliers
+Processing 173/478 frame
+Points cloud size: 3049
+Used 2313 inliers
+Processing 174/478 frame
+Points cloud size: 3055
+Used 2317 inliers
+Processing 175/478 frame
+Points cloud size: 3056
+Used 2315 inliers
+Processing 176/478 frame
+Points cloud size: 3059
+Used 2317 inliers
+Processing 177/478 frame
+Points cloud size: 3062
+Used 2318 inliers
+Processing 178/478 frame
+Points cloud size: 3063
+Used 2317 inliers
+Processing 179/478 frame
+Points cloud size: 3063
+Used 2314 inliers
+Processing 180/478 frame
+Points cloud size: 3063
+Used 2310 inliers
+Processing 181/478 frame
+Points cloud size: 3067
+Used 2314 inliers
+Processing 182/478 frame
+Points cloud size: 3072
+Used 2316 inliers
+Processing 183/478 frame
+Points cloud size: 3072
+Used 2314 inliers
+Processing 184/478 frame
+Points cloud size: 3073
+Used 2311 inliers
+Processing 185/478 frame
+Points cloud size: 3074
+Used 2301 inliers
+Processing 186/478 frame
+Points cloud size: 3074
+Used 2298 inliers
+Processing 187/478 frame
+Points cloud size: 3074
+Used 2294 inliers
+Processing 188/478 frame
+Points cloud size: 3075
+Used 2288 inliers
+Processing 189/478 frame
+Points cloud size: 3075
+Used 2284 inliers
+Processing 190/478 frame
+Points cloud size: 3076
+Used 2275 inliers
+Processing 191/478 frame
+Points cloud size: 3078
+Used 2275 inliers
+Processing 192/478 frame
+Points cloud size: 3080
+Used 2272 inliers
+Processing 193/478 frame
+Points cloud size: 3083
+Used 2283 inliers
+Processing 194/478 frame
+Points cloud size: 3083
+Used 2274 inliers
+Processing 195/478 frame
+Points cloud size: 3083
+Used 2270 inliers
+Processing 196/478 frame
+Points cloud size: 3086
+Used 2269 inliers
+Processing 197/478 frame
+Points cloud size: 3089
+Used 2266 inliers
+Processing 198/478 frame
+Points cloud size: 3094
+Used 2267 inliers
+Processing 199/478 frame
+Points cloud size: 3098
+Used 2267 inliers
+Processing 200/478 frame
+Points cloud size: 3101
+Used 2265 inliers
+Processing 201/478 frame
+Points cloud size: 3104
+Used 2266 inliers
+Processing 202/478 frame
+Points cloud size: 3109
+Used 2271 inliers
+Processing 203/478 frame
+Points cloud size: 3110
+Used 2270 inliers
+Processing 204/478 frame
+Points cloud size: 3115
+Used 2274 inliers
+Processing 205/478 frame
+Points cloud size: 3116
+Used 2265 inliers
+Processing 206/478 frame
+Points cloud size: 3117
+Used 2258 inliers
+Processing 207/478 frame
+Points cloud size: 3118
+Used 2257 inliers
+Processing 208/478 frame
+Points cloud size: 3120
+Used 2251 inliers
+Processing 209/478 frame
+Points cloud size: 3131
+Used 2265 inliers
+Processing 210/478 frame
+Points cloud size: 3131
+Used 2263 inliers
+Processing 211/478 frame
+Points cloud size: 3132
+Used 2268 inliers
+Processing 212/478 frame
+Points cloud size: 3132
+Used 2262 inliers
+Processing 213/478 frame
+Points cloud size: 3137
+Used 2261 inliers
+Processing 214/478 frame
+Points cloud size: 3138
+Used 2261 inliers
+Processing 215/478 frame
+Points cloud size: 3140
+Used 2251 inliers
+Processing 216/478 frame
+Points cloud size: 3158
+Used 2276 inliers
+Processing 217/478 frame
+Points cloud size: 3158
+Used 2268 inliers
+Processing 218/478 frame
+Points cloud size: 3168
+Used 2276 inliers
+Processing 219/478 frame
+Points cloud size: 3168
+Used 2270 inliers
+Processing 220/478 frame
+Points cloud size: 3169
+Used 2267 inliers
+Processing 221/478 frame
+Points cloud size: 3171
+Used 2266 inliers
+Processing 222/478 frame
+Points cloud size: 3175
+Used 2271 inliers
+Processing 223/478 frame
+Points cloud size: 3175
+Used 2265 inliers
+Processing 224/478 frame
+Points cloud size: 3178
+Used 2254 inliers
+Processing 225/478 frame
+Points cloud size: 3178
+Used 2210 inliers
+Processing 226/478 frame
+Points cloud size: 3185
+Used 2239 inliers
+Processing 227/478 frame
+Points cloud size: 3186
+Used 2205 inliers
+Processing 228/478 frame
+Points cloud size: 3188
+Used 2190 inliers
+Processing 229/478 frame
+Points cloud size: 3190
+Used 2168 inliers
+Processing 230/478 frame
+Points cloud size: 3194
+Used 2142 inliers
+Processing 231/478 frame
+Points cloud size: 3198
+Used 2097 inliers
+Processing 232/478 frame
+Points cloud size: 3206
+Used 2129 inliers
+Processing 233/478 frame
+Points cloud size: 3206
+Used 2083 inliers
+Processing 234/478 frame
+Points cloud size: 3210
+Used 2035 inliers
+Processing 235/478 frame
+Points cloud size: 3211
+Used 1996 inliers
+Processing 236/478 frame
+Points cloud size: 3220
+Used 1981 inliers
+Processing 237/478 frame
+Points cloud size: 3232
+Used 1970 inliers
+Processing 238/478 frame
+Points cloud size: 3245
+Used 1946 inliers
+Processing 239/478 frame
+Points cloud size: 3261
+Used 1939 inliers
+Processing 240/478 frame
+Points cloud size: 3270
+Used 1905 inliers
+Processing 241/478 frame
+Points cloud size: 3285
+Used 1884 inliers
+Processing 242/478 frame
+Points cloud size: 3305
+Used 1883 inliers
+Processing 243/478 frame
+Points cloud size: 3350
+Used 1902 inliers
+Processing 244/478 frame
+Points cloud size: 3373
+Used 1891 inliers
+Processing 245/478 frame
+Points cloud size: 3418
+Used 1900 inliers
+Processing 246/478 frame
+Points cloud size: 3445
+Used 1903 inliers
+Processing 247/478 frame
+Points cloud size: 3480
+Used 1923 inliers
+Processing 248/478 frame
+Points cloud size: 3528
+Used 1956 inliers
+Processing 249/478 frame
+Points cloud size: 3546
+Used 1967 inliers
+Processing 250/478 frame
+Points cloud size: 3571
+Used 1970 inliers
+Processing 251/478 frame
+Points cloud size: 3617
+Used 1973 inliers
+Processing 252/478 frame
+Points cloud size: 3637
+Used 1977 inliers
+Processing 253/478 frame
+Points cloud size: 3676
+Used 1972 inliers
+Processing 254/478 frame
+Points cloud size: 3713
+Used 1959 inliers
+Processing 255/478 frame
+Points cloud size: 3751
+Used 1970 inliers
+Processing 256/478 frame
+Points cloud size: 3776
+Used 1989 inliers
+Processing 257/478 frame
+Points cloud size: 3797
+Used 1964 inliers
+Processing 258/478 frame
+Points cloud size: 3815
+Used 1962 inliers
+Processing 259/478 frame
+Points cloud size: 3827
+Used 1849 inliers
+Processing 260/478 frame
+Points cloud size: 3841
+Used 1800 inliers
+Processing 261/478 frame
+Points cloud size: 3869
+Used 1746 inliers
+Processing 262/478 frame
+Points cloud size: 3892
+Used 1700 inliers
+Processing 263/478 frame
+Points cloud size: 3952
+Used 1689 inliers
+Processing 264/478 frame
+Points cloud size: 3974
+Used 1678 inliers
+Processing 265/478 frame
+Points cloud size: 3994
+Used 1660 inliers
+Processing 266/478 frame
+Points cloud size: 4012
+Used 1625 inliers
+Processing 267/478 frame
+Points cloud size: 4033
+Used 1644 inliers
+Processing 268/478 frame
+Points cloud size: 4066
+Used 1651 inliers
+Processing 269/478 frame
+Points cloud size: 4066
+Used 1642 inliers
+Processing 270/478 frame
+Points cloud size: 4100
+Used 1642 inliers
+Processing 271/478 frame
+Points cloud size: 4100
+Used 1625 inliers
+Processing 272/478 frame
+Points cloud size: 4100
+Used 1626 inliers
+Processing 273/478 frame
+Points cloud size: 4100
+Used 1614 inliers
+Processing 274/478 frame
+Points cloud size: 4107
+Used 1619 inliers
+Processing 275/478 frame
+Points cloud size: 4107
+Used 1619 inliers
+Processing 276/478 frame
+Points cloud size: 4107
+Used 1619 inliers
+Processing 277/478 frame
+Points cloud size: 4107
+Used 1618 inliers
+Processing 278/478 frame
+Points cloud size: 4107
+Used 1619 inliers
+Processing 279/478 frame
+Points cloud size: 4107
+Used 1619 inliers
+Processing 280/478 frame
+Points cloud size: 4107
+Used 1621 inliers
+Processing 281/478 frame
+Points cloud size: 4107
+Used 1620 inliers
+Processing 282/478 frame
+Points cloud size: 4107
+Used 1621 inliers
+Processing 283/478 frame
+Points cloud size: 4107
+Used 1621 inliers
+Processing 284/478 frame
+Points cloud size: 4107
+Used 1620 inliers
+Processing 285/478 frame
+Points cloud size: 4107
+Used 1621 inliers
+Processing 286/478 frame
+Points cloud size: 4107
+Used 1619 inliers
+Processing 287/478 frame
+Points cloud size: 4107
+Used 1621 inliers
+Processing 288/478 frame
+Points cloud size: 4107
+Used 1618 inliers
+Processing 289/478 frame
+Points cloud size: 4107
+Used 1619 inliers
+Processing 290/478 frame
+Points cloud size: 4107
+Used 1618 inliers
+Processing 291/478 frame
+Points cloud size: 4107
+Used 1619 inliers
+Processing 292/478 frame
+Points cloud size: 4125
+Used 1642 inliers
+Processing 293/478 frame
+Points cloud size: 4125
+Used 1620 inliers
+Processing 294/478 frame
+Points cloud size: 4125
+Used 1619 inliers
+Processing 295/478 frame
+Points cloud size: 4125
+Used 1617 inliers
+Processing 296/478 frame
+Points cloud size: 4125
+Used 1617 inliers
+Processing 297/478 frame
+Points cloud size: 4125
+Used 1615 inliers
+Processing 298/478 frame
+Points cloud size: 4125
+Used 1615 inliers
+Processing 299/478 frame
+Points cloud size: 4125
+Used 1614 inliers
+Processing 300/478 frame
+Points cloud size: 4125
+Used 1614 inliers
+Processing 301/478 frame
+Points cloud size: 4125
+Used 1610 inliers
+Processing 302/478 frame
+Points cloud size: 4125
+Used 1611 inliers
+Processing 303/478 frame
+Points cloud size: 4125
+Used 1609 inliers
+Processing 304/478 frame
+Points cloud size: 4125
+Used 1609 inliers
+Processing 305/478 frame
+Points cloud size: 4125
+Used 1606 inliers
+Processing 306/478 frame
+Points cloud size: 4125
+Used 1602 inliers
+Processing 307/478 frame
+Points cloud size: 4125
+Used 649 inliers
+Processing 308/478 frame
+Points cloud size: 4125
+Used 1140 inliers
+Processing 309/478 frame
+Points cloud size: 4125
+Used 1500 inliers
+Processing 310/478 frame
+Points cloud size: 4125
+Used 1757 inliers
+Processing 311/478 frame
+Points cloud size: 4126
+Used 1930 inliers
+Processing 312/478 frame
+Points cloud size: 4129
+Used 2233 inliers
+Processing 313/478 frame
+Points cloud size: 4129
+Used 2334 inliers
+Processing 314/478 frame
+Points cloud size: 4130
+Used 2363 inliers
+Processing 315/478 frame
+Points cloud size: 4139
+Used 2375 inliers
+Processing 316/478 frame
+Points cloud size: 4146
+Used 2394 inliers
+Processing 317/478 frame
+Points cloud size: 4150
+Used 2400 inliers
+Processing 318/478 frame
+Points cloud size: 4154
+Used 2409 inliers
+Processing 319/478 frame
+Points cloud size: 4154
+Used 2419 inliers
+Processing 320/478 frame
+Points cloud size: 4155
+Used 2422 inliers
+Processing 321/478 frame
+Points cloud size: 4158
+Used 2425 inliers
+Processing 322/478 frame
+Points cloud size: 4158
+Used 2425 inliers
+Processing 323/478 frame
+Points cloud size: 4160
+Used 2384 inliers
+Processing 324/478 frame
+Points cloud size: 4163
+Used 2416 inliers
+Processing 325/478 frame
+Points cloud size: 4165
+Used 2430 inliers
+Processing 326/478 frame
+Points cloud size: 4165
+Used 2428 inliers
+Processing 327/478 frame
+Points cloud size: 4165
+Used 2414 inliers
+Processing 328/478 frame
+Points cloud size: 4166
+Used 2420 inliers
+Processing 329/478 frame
+Points cloud size: 4166
+Used 2394 inliers
+Processing 330/478 frame
+Points cloud size: 4166
+Used 2411 inliers
+Processing 331/478 frame
+Points cloud size: 4168
+Used 2398 inliers
+Processing 332/478 frame
+Points cloud size: 4172
+Used 2408 inliers
+Processing 333/478 frame
+Points cloud size: 4172
+Used 2410 inliers
+Processing 334/478 frame
+Points cloud size: 4172
+Used 2380 inliers
+Processing 335/478 frame
+Points cloud size: 4176
+Used 2333 inliers
+Processing 336/478 frame
+Points cloud size: 4182
+Used 2399 inliers
+Processing 337/478 frame
+Points cloud size: 4182
+Used 2398 inliers
+Processing 338/478 frame
+Points cloud size: 4182
+Used 2390 inliers
+Processing 339/478 frame
+Points cloud size: 4182
+Used 2390 inliers
+Processing 340/478 frame
+Points cloud size: 4182
+Used 2384 inliers
+Processing 341/478 frame
+Points cloud size: 4183
+Used 2388 inliers
+Processing 342/478 frame
+Points cloud size: 4189
+Used 2387 inliers
+Processing 343/478 frame
+Points cloud size: 4190
+Used 2384 inliers
+Processing 344/478 frame
+Points cloud size: 4198
+Used 2397 inliers
+Processing 345/478 frame
+Points cloud size: 4198
+Used 2381 inliers
+Processing 346/478 frame
+Points cloud size: 4198
+Used 2390 inliers
+Processing 347/478 frame
+Points cloud size: 4198
+Used 2389 inliers
+Processing 348/478 frame
+Points cloud size: 4202
+Used 2392 inliers
+Processing 349/478 frame
+Points cloud size: 4202
+Used 2388 inliers
+Processing 350/478 frame
+Points cloud size: 4203
+Used 2390 inliers
+Processing 351/478 frame
+Points cloud size: 4203
+Used 2369 inliers
+Processing 352/478 frame
+Points cloud size: 4204
+Used 2392 inliers
+Processing 353/478 frame
+Points cloud size: 4206
+Used 2385 inliers
+Processing 354/478 frame
+Points cloud size: 4211
+Used 2393 inliers
+Processing 355/478 frame
+Points cloud size: 4211
+Used 2390 inliers
+Processing 356/478 frame
+Points cloud size: 4211
+Used 2393 inliers
+Processing 357/478 frame
+Points cloud size: 4212
+Used 2393 inliers
+Processing 358/478 frame
+Points cloud size: 4212
+Used 2379 inliers
+Processing 359/478 frame
+Points cloud size: 4212
+Used 2379 inliers
+Processing 360/478 frame
+Points cloud size: 4212
+Used 2337 inliers
+Processing 361/478 frame
+Points cloud size: 4214
+Used 2390 inliers
+Processing 362/478 frame
+Points cloud size: 4214
+Used 2383 inliers
+Processing 363/478 frame
+Points cloud size: 4214
+Used 2383 inliers
+Processing 364/478 frame
+Points cloud size: 4214
+Used 2369 inliers
+Processing 365/478 frame
+Points cloud size: 4217
+Used 2382 inliers
+Processing 366/478 frame
+Points cloud size: 4217
+Used 2377 inliers
+Processing 367/478 frame
+Points cloud size: 4217
+Used 2365 inliers
+Processing 368/478 frame
+Points cloud size: 4219
+Used 2377 inliers
+Processing 369/478 frame
+Points cloud size: 4219
+Used 2340 inliers
+Processing 370/478 frame
+Points cloud size: 4221
+Used 2375 inliers
+Processing 371/478 frame
+Points cloud size: 4221
+Used 2354 inliers
+Processing 372/478 frame
+Points cloud size: 4225
+Used 2350 inliers
+Processing 373/478 frame
+Points cloud size: 4228
+Used 2351 inliers
+Processing 374/478 frame
+Points cloud size: 4230
+Used 2357 inliers
+Processing 375/478 frame
+Points cloud size: 4230
+Used 2360 inliers
+Processing 376/478 frame
+Points cloud size: 4243
+Used 2344 inliers
+Processing 377/478 frame
+Points cloud size: 4243
+Used 2355 inliers
+Processing 378/478 frame
+Points cloud size: 4243
+Used 2360 inliers
+Processing 379/478 frame
+Points cloud size: 4247
+Used 2359 inliers
+Processing 380/478 frame
+Points cloud size: 4250
+Used 2353 inliers
+Processing 381/478 frame
+Points cloud size: 4263
+Used 2371 inliers
+Processing 382/478 frame
+Points cloud size: 4263
+Used 2361 inliers
+Processing 383/478 frame
+Points cloud size: 4264
+Used 2372 inliers
+Processing 384/478 frame
+Points cloud size: 4264
+Used 2367 inliers
+Processing 385/478 frame
+Points cloud size: 4264
+Used 2365 inliers
+Processing 386/478 frame
+Points cloud size: 4275
+Used 2371 inliers
+Processing 387/478 frame
+Points cloud size: 4279
+Used 2388 inliers
+Processing 388/478 frame
+Points cloud size: 4279
+Used 2378 inliers
+Processing 389/478 frame
+Points cloud size: 4286
+Used 2376 inliers
+Processing 390/478 frame
+Points cloud size: 4299
+Used 2393 inliers
+Processing 391/478 frame
+Points cloud size: 4309
+Used 2404 inliers
+Processing 392/478 frame
+Points cloud size: 4309
+Used 2408 inliers
+Processing 393/478 frame
+Points cloud size: 4309
+Used 2395 inliers
+Processing 394/478 frame
+Points cloud size: 4319
+Used 2412 inliers
+Processing 395/478 frame
+Points cloud size: 4319
+Used 2392 inliers
+Processing 396/478 frame
+Points cloud size: 4319
+Used 2400 inliers
+Processing 397/478 frame
+Points cloud size: 4319
+Used 2398 inliers
+Processing 398/478 frame
+Points cloud size: 4320
+Used 2413 inliers
+Processing 399/478 frame
+Points cloud size: 4320
+Used 2404 inliers
+Processing 400/478 frame
+Points cloud size: 4320
+Used 2379 inliers
+Processing 401/478 frame
+Points cloud size: 4327
+Used 2404 inliers
+Processing 402/478 frame
+Points cloud size: 4327
+Used 2405 inliers
+Processing 403/478 frame
+Points cloud size: 4327
+Used 2396 inliers
+Processing 404/478 frame
+Points cloud size: 4327
+Used 2387 inliers
+Processing 405/478 frame
+Points cloud size: 4327
+Used 2358 inliers
+Processing 406/478 frame
+Points cloud size: 4327
+Used 2218 inliers
+Processing 407/478 frame
+Points cloud size: 4331
+Used 2393 inliers
+Processing 408/478 frame
+Points cloud size: 4331
+Used 2384 inliers
+Processing 409/478 frame
+Points cloud size: 4333
+Used 2405 inliers
+Processing 410/478 frame
+Points cloud size: 4340
+Used 2418 inliers
+Processing 411/478 frame
+Points cloud size: 4340
+Used 2418 inliers
+Processing 412/478 frame
+Points cloud size: 4340
+Used 2405 inliers
+Processing 413/478 frame
+Points cloud size: 4346
+Used 2417 inliers
+Processing 414/478 frame
+Points cloud size: 4352
+Used 2422 inliers
+Processing 415/478 frame
+Points cloud size: 4353
+Used 2408 inliers
+Processing 416/478 frame
+Points cloud size: 4356
+Used 2427 inliers
+Processing 417/478 frame
+Points cloud size: 4356
+Used 2426 inliers
+Processing 418/478 frame
+Points cloud size: 4356
+Used 2425 inliers
+Processing 419/478 frame
+Points cloud size: 4356
+Used 2432 inliers
+Processing 420/478 frame
+Points cloud size: 4356
+Used 2424 inliers
+Processing 421/478 frame
+Points cloud size: 4356
+Used 2426 inliers
+Processing 422/478 frame
+Points cloud size: 4356
+Used 2431 inliers
+Processing 423/478 frame
+Points cloud size: 4356
+Used 2431 inliers
+Processing 424/478 frame
+Points cloud size: 4356
+Used 2431 inliers
+Processing 425/478 frame
+Points cloud size: 4356
+Used 2427 inliers
+Processing 426/478 frame
+Points cloud size: 4356
+Used 2398 inliers
+Processing 427/478 frame
+Points cloud size: 4356
+Used 2421 inliers
+Processing 428/478 frame
+Points cloud size: 4356
+Used 2401 inliers
+Processing 429/478 frame
+Points cloud size: 4356
+Used 2374 inliers
+Processing 430/478 frame
+Points cloud size: 4356
+Used 2431 inliers
+Processing 431/478 frame
+Points cloud size: 4356
+Used 2398 inliers
+Processing 432/478 frame
+Points cloud size: 4356
+Used 2431 inliers
+Processing 433/478 frame
+Points cloud size: 4356
+Used 2399 inliers
+Processing 434/478 frame
+Points cloud size: 4356
+Used 2368 inliers
+Processing 435/478 frame
+Points cloud size: 4356
+Used 2362 inliers
+Processing 436/478 frame
+Points cloud size: 4356
+Used 2431 inliers
+Processing 437/478 frame
+Points cloud size: 4356
+Used 2431 inliers
+Processing 438/478 frame
+Points cloud size: 4356
+Used 2431 inliers
+Processing 439/478 frame
+Points cloud size: 4356
+Used 2430 inliers
+Processing 440/478 frame
+Points cloud size: 4356
+Used 2431 inliers
+Processing 441/478 frame
+Points cloud size: 4356
+Used 2430 inliers
+Processing 442/478 frame
+Points cloud size: 4356
+Used 2418 inliers
+Processing 443/478 frame
+Points cloud size: 4356
+Used 2406 inliers
+Processing 444/478 frame
+Points cloud size: 4356
+Used 2430 inliers
+Processing 445/478 frame
+Points cloud size: 4356
+Used 2387 inliers
+Processing 446/478 frame
+Points cloud size: 4356
+Used 2359 inliers
+Processing 447/478 frame
+Points cloud size: 4356
+Used 2392 inliers
+Processing 448/478 frame
+Points cloud size: 4356
+Used 2369 inliers
+Processing 449/478 frame
+Points cloud size: 4356
+Used 2363 inliers
+Processing 450/478 frame
+Points cloud size: 4356
+Used 2379 inliers
+Processing 451/478 frame
+Points cloud size: 4356
+Used 2431 inliers
+Processing 452/478 frame
+Points cloud size: 4356
+Used 2429 inliers
+Processing 453/478 frame
+Points cloud size: 4356
+Used 2370 inliers
+Processing 454/478 frame
+Points cloud size: 4356
+Used 2382 inliers
+Processing 455/478 frame
+Points cloud size: 4356
+Used 2408 inliers
+Processing 456/478 frame
+Points cloud size: 4356
+Used 2428 inliers
+Processing 457/478 frame
+Points cloud size: 4356
+Used 2428 inliers
+Processing 458/478 frame
+Points cloud size: 4356
+Used 2391 inliers
+Processing 459/478 frame
+Points cloud size: 4356
+Used 2431 inliers
+Processing 460/478 frame
+Points cloud size: 4356
+Used 2421 inliers
+Processing 461/478 frame
+Points cloud size: 4356
+Used 2431 inliers
+Processing 462/478 frame
+Points cloud size: 4356
+Used 2429 inliers
+Processing 463/478 frame
+Points cloud size: 4356
+Used 2419 inliers
+Processing 464/478 frame
+Points cloud size: 4356
+Used 2389 inliers
+Processing 465/478 frame
+Points cloud size: 4356
+Used 2414 inliers
+Processing 466/478 frame
+Points cloud size: 4356
+Used 2407 inliers
+Processing 467/478 frame
+Points cloud size: 4356
+Used 2368 inliers
+Processing 468/478 frame
+Points cloud size: 4356
+Used 2349 inliers
+Processing 469/478 frame
+Points cloud size: 4356
+Used 2372 inliers
+Processing 470/478 frame
+Points cloud size: 4356
+Used 2377 inliers
+Processing 471/478 frame
+Points cloud size: 4356
+Used 2369 inliers
+Processing 472/478 frame
+Points cloud size: 4356
+Used 2369 inliers
+Processing 473/478 frame
+Points cloud size: 4356
+Used 2326 inliers
+Processing 474/478 frame
+Points cloud size: 4356
+Used 2300 inliers
+Processing 475/478 frame
+Points cloud size: 4356
+Used 2298 inliers
+Processing 476/478 frame
+Points cloud size: 4356
+Used 2302 inliers
+Processing 477/478 frame
+Points cloud size: 4356
+Used 2313 inliers
+Processing 478/478 frame
+Points cloud size: 4356
+Used 1837 inliers
